@@ -17,7 +17,6 @@ export let loader: LoaderFunction = async ({ params }) => {
 function Detail() {
   const data = useLoaderData<typeof loader>();
   const phone = data?.phone.products;
-  console.log(phone);
   return (
     <div>
       <div className="md:flex items-start justify-center py-12 2xl:px-20 md:px-6 px-4">

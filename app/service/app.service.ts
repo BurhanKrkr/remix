@@ -18,7 +18,6 @@ export async function getPhones() {
 export async function getPhone(code: number) {
   try {
     const res = await fetch(API_URL_DETAIL + code).then((res) => res.json());
-    console.log(res);
     if (res) {
       const products = res.result;
       return { products };
