@@ -49,7 +49,7 @@ export function PhoneCard({ phone, horizontalProducts }: PhoneCardProps) {
 
   return (
     <div className="w-80 bg-white shadow rounded group hover:shadow-lg">
-      <div className="w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center relative">
+      <div className="h-2/3 w-full bg-gray-200 flex flex-col justify-between p-4 bg-cover bg-center relative">
         <img
           src={defaultImage}
           alt="Background Image"
